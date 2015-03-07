@@ -25,7 +25,7 @@
             $grid->displayGrid();
             echo "</div>";
             
-            if($i == 4) echo "</section><section>";
+            if($i == 4 || $i == 7) echo "</section><section>";
         }
         echo "</section>";
         echo "</pre>";
